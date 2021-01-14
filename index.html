@@ -10,125 +10,127 @@
 </head>
 
 <body>
-    <header class="container">
-
-        <!--Navbar start-->
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <div class="container-fluid">
-                    <div class="row-md-8 ">
-                        <a class="navbar-brand" href="#">
-                            <img src="Logo/Logo.png" alt="">
-                        </a>
-                        <a class="navbar-brand" href="#">
-                            <img src="Logo/bg-1.png" alt="">
-                        </a>
-                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02"
-                            aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span>
-                        </button>    
-                    </div>
-                    <div class="row-md-4 justify-content-between ">
-                        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-                            <ul class="navbar-nav me-auto mb-2 mb-lg-0  ">
-                                <li class="nav-item">
-                                    <a class="nav-link" aria-current="page" href="#Home">Home</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#Product">Product</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#About us">About us</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#Contact us">Contact us</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                
+    <!--Navbar start-->
+    <nav class="container navbar navbar-expand-lg navbar-light  nav-custom">
+        <div class="container-fluid">
+            <div class="col-lg-6">
+                <a class="navbar-brand" href="#">
+                    <img src="Logo/Logo.png" alt="">
+                </a>
+                <a class="navbar-brand" href="#">
+                    <img src="Logo/bg-1.png" alt="">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+            <div class="col-lg-2">
 
             </div>
-        </nav>
-        <!--First part start-->
-        <section class="container first-part">
-            <div class="row d-flex align-items-center p-5">
-
-                <div class="row ">
-                    <div class="col-sm-6">
-                        <div class="card first-part-image">
-                            <a href="#">
-                                <img src="Photos/Group 33092.png" class="card-img-top " alt="...">
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-sm-6">
-                        <div class="card first-part-image">
-                            <div class="card-body">
-                                <div class="card-body">
-
-                                </div>
-                            </div>
-                        </div>
+            <div class="col-lg-4 justify-content-right align-items-center">
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                    <ul class="navbar-nav me-right mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#Home">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#Product">Product</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#About us">About us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#Contact us">Contact us</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!--First part start-->
+    <header class="container nav-custom">
+        <section class="container-fluid d-flex">
+            <div class="row ">
+                <div class="col-md-6 row-cols-1">
+                    <div class="card-body">
+                        <img src="Photos/Group 33092.png" class="card-img-top " alt="...">
                     </div>
                 </div>
+                <div class="col-md-2 row-cols-1">
+                </div>
+                <div class="col-md-4 row-cols-1">
+                    <div class="card-body">
+                        <h5 class="card-title">NIKE REACT</h5>
+                        <h5 class="card-title">INFINITY RUN2</h5>
+                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                        <button href="#" class="btn btn-primary order-button">
+                            <img src="Logo/shopping-cart.png" alt="">
+                            Buy Now
+                        </button>
+                    </div>
+                </div>
+            </div>
         </section>
-        <!--First part end-->
     </header>
+    <!--First part end-->
     <main class="container">
         <!--Body First part start-->
         <section class="container-fluid overflow-hidden mt-5">
             <h1 id="Shoes">Casul Shoes</h1>
             <div class="row row-cols-1 row-cols-md-3 g-4">
                 <div class="col">
-                    <div class="card h-100  ">
-                        <img src="Photos/image 5.png" class="card-img-top " alt="...">
+                    <div class="card h-100 card-part ">
+                        <img src="Photos/image 5.png" class="card-img-top card-image" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Nike Shoe</h5>
                             <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
                                 additional content. This content is a little bit longer.</p>
-                        </div>
-                        <div class="card-footer">
-                            <small class="text-muted">$234</small>
-                            <button href="#" class="btn btn-primary">
-                                <img src="Logo/shopping-cart.png" alt="">
-                                Buy Now
-                            </button>
+                            <h5 class="price">$234
+                                <button href="#" class="btn btn-primary order-button">
+                                    <img src="Logo/shopping-cart.png" alt="">
+                                    Buy Now
+                                </button>
+                            </h5>
                         </div>
                     </div>
                 </div>
                 <div class="col">
-                    <div class="card h-100">
-                        <img src="Photos/Daco_1703273 1.png" class="card-img-top" alt="...">
+                    <div class="card h-100 card-part">
+                        <img src="Photos/Daco_1703273 1.png" class="card-img-top card-image" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Sneakers Skate Shoe</h5>
-                            <p class="card-text">This card has supporting text below as a natural lead-in to additional
-                                content.</p>
-                        </div>
-                        <div class="card-footer">
-                            <small class="text-muted">$234</small>
-                            <button href="#" class="btn btn-primary">
-                                <img src="Logo/shopping-cart.png" alt="">
-                                Buy Now
-                            </button>
+                            <p class="card-text">
+                                This is a wider card with supporting text below as a natural lead-in to
+                                additional content. This card has even longer content than the first to show that equal
+                                height action.
+                            </p>
+                            <h5 class="price">$234
+                                <button href="#" class="btn btn-primary order-button">
+                                    <img src="Logo/shopping-cart.png" alt="">
+                                    Buy Now
+                                </button>
+                            </h5>
                         </div>
                     </div>
                 </div>
                 <div class="col">
-                    <div class="card h-100">
-                        <img src="Photos/pngegg 1.png" class="card-img-top" alt="...">
+                    <div class="card h-100 card-part">
+                        <img src="Photos/pngegg 1.png" class="card-img-top card-image" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Sneakers Basketball shoe</h5>
-                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                            <p class="card-text">
+                                This is a wider card with supporting text below as a natural lead-in to
                                 additional content. This card has even longer content than the first to show that equal
-                                height action.</p>
-                        </div>
-                        <div class="card-footer">
-                            <small class="text-muted">$234</small>
-                            <button href="#" class="btn btn-primary">
-                                <img src="Logo/shopping-cart.png" alt="">
-                                Buy Now
-                            </button>
+                                height action.
+                            </p>
+                            <h5 class="price">$234
+                                <button href="#" class="btn btn-primary order-button ">
+                                    <img src="Logo/shopping-cart.png" alt="">
+                                    Buy Now
+                                </button>
+                            </h5>
                         </div>
                     </div>
                 </div>
@@ -136,58 +138,61 @@
         </section>
         <!--Body First part end-->
         <!--Body second part start-->
-        <section class=" container-fluid">
-            <h1 id="Shoes">Formal Shoes</h1>
-            <div class="row row-cols-1 row-cols-md-3 g-4 second-part">
-                <div class="col ">
-                    <div class="card h-100 second-part">
-                        <img src="Photos/Mask Group.png" class="card-img-top " alt="...">
+        <section class="container-fluid overflow-hidden mt-5">
+            <h1 id="Formal_Shoes">Formal Shoes</h1>
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="col">
+                    <div class="card h-100 card-part">
+                        <img src="Photos/Mask Group.png" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Prestige High-Cut Leather </h5>
-                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
-                                additional content. This content is a little bit longer.</p>
-                        </div>
-                        <div class="card-footer">
-                            <small class="text-muted">$234</small>
-                            <button href="#" class="btn btn-primary">
-                                <img src="Logo/shopping-cart.png" alt="">
-                                Buy Now
-                            </button>
-                        </div>
-                    </div>
-                </div>
-                <div class="col ">
-                    <div class="card h-100 second-part">
-                        <img src="Photos/Rectangle 38.png" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Slip-On Formal Shoe</h5>
-                            <p class="card-text">This card has supporting text below as a natural lead-in to additional
-                                content.</p>
-                        </div>
-                        <div class="card-footer">
-                            <small class="text-muted">$234</small>
-                            <button href="#" class="btn btn-primary">
-                                <img src="Logo/shopping-cart.png" alt="">
-                                Buy Now
-                            </button>
+                            <p class="card-text">
+                                This is a wider card with supporting text below as a natural
+                                lead-in to additional content. This content is a little bit longer.
+                            </p>
+                            <h5 class="price">$234
+                                <button href="#" class="btn btn-primary order-button">
+                                    <img src="Logo/shopping-cart.png" alt="">
+                                    Buy Now
+                                </button>
+                            </h5>
                         </div>
                     </div>
                 </div>
                 <div class="col">
-                    <div class="card h-100 ">
+                    <div class="card h-100 card-part">
+                        <img src="Photos/Rectangle 38.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Slip-On Formal Shoe</h5>
+                            <p class="card-text">This card has supporting text below as a natural lead-in to
+                                additional
+                                content.</p>
+                            <h5 class=" price">$234
+                                <button href="#" class="btn btn-primary order-button overflow-hidden">
+                                    <img src="Logo/shopping-cart.png" alt="">
+                                    Buy Now
+                                </button>
+                            </h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 card-part">
                         <img src="Photos/Rectangle 39.png" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Slip-On Formal Shoe</h5>
-                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
-                                additional content. This card has even longer content than the first to show that equal
+                            <p class="card-text">This is a wider card with supporting text below as a natural
+                                lead-in to
+                                additional content. This card has even longer content than the first to show that
+                                equal
                                 height action.</p>
-                        </div>
-                        <div class="card-footer">
-                            <small class="text-muted">$234</small>
-                            <button href="#" class="btn btn-primary">
-                                <img src="Logo/shopping-cart.png" alt="">
-                                Buy Now
-                            </button>
+                            <h5 class=" price">
+                                $234
+                                <button href="#" class="btn btn-primary  order-button ">
+                                    <img src="Logo/shopping-cart.png" alt="">
+                                    Buy Now
+                                </button>
+                            </h5>
                         </div>
                     </div>
                 </div>
@@ -196,64 +201,85 @@
         <!--Body second part end-->
         <!--Body third part start-->
         <section class="container mt-5">
-            <div class="row row-cols-1 row-cols-md-2 g-6 third-part">
-                <div class="col ">
-                    <div class="col-sm-6">
-                        <div class="row">
-                            <div class="col-3">
-                                <img src="Logo/image 12.png" alt="" height="82px">
-                            </div>
-                            <div class="col-9">
-                                <h5 class="card-title"> Find The Perfect Fit </h5>
-                                <p class="card-text">
-                                    This is a wider card with supporting text below as a natural lead-in to
-                                    additional content.
-                                </p>
-                            </div>
+            <div class="row ">
+                <div class="col-md-6">
+                    <div class="row d-flex justify-content-around">
+                        <div class="col-md-3 d-flex justify-content-around ">
+                            <img src="Logo/image 12.png" alt="" height="82px">
                         </div>
-                        <div class="row mt-3">
-                            <div class="col-3">
-                                <img src="Logo/image 13.png" alt="" height="82px">
-                            </div>
-                            <div class="col-9">
-                                <h5 class="card-title"> Free Exchange</h5>
-                                <p class="card-text">
-                                    This is a wider card with supporting text below as a natural lead-in to
-                                    additional content.
-                                </p>
-                            </div>
+                        <div class="col-md-8 justify-items-between align-items-center">
+                            <h5 class="card-title"> Free Exchange</h5>
+                            <p class="card-text">
+                                This is a wider card with supporting text below as a natural lead-in to
+                                additional content.
+                            </p>
                         </div>
-                        <div class="row mt-3">
-                            <div class="col-3">
-                                <img src="Logo/image 14.png" alt="" height="82px">
-                            </div>
-                            <div class="col-9">
-                                <h5 class="card-title"> Contact Our Seller </h5>
-                                <p class="card-text">
-                                    This is a wider card with supporting text below as a natural lead-in to
-                                    additional content.
-                                </p>
-                            </div>
+                    </div>
+                    <div class="row d-flex justify-content-around">
+                        <div class="col-md-3 d-flex justify-content-around ">
+                            <img src="Logo/image 13.png" alt="" height="82px">
+                        </div>
+                        <div class="col-md-8  justify-content-between align-items-center">
+                            <h5 class="card-title"> Contact Our Seller</h5>
+                            <p class="card-text">
+                                This is a wider card with supporting text below as a natural lead-in to
+                                additional content.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="row d-flex justify-content-around">
+                        <div class="col-md-3 d-flex justify-content-around">
+                            <img src="Logo/image 14.png" alt="" height="82px">
+                        </div>
+                        <div class="col-md-8 justify-content-between align-items-center">
+                            <h5 class="card-title"> Contact Our Seller</h5>
+                            <p class="card-text">
+                                This is a wider card with supporting text below as a natural lead-in to
+                                additional content.
+                            </p>
                         </div>
                     </div>
                 </div>
-                <div class="col">
-                    <div class="col-md-6">
-                        <div class="row">
-                            <div class="card h-100 second-part">
-                                <img src="Logo/XMLID 1.png" class="card-img-top" alt="...">
-                            </div>
+                <div class="col-md-6">
+                    <div class="row">
+                        <div class="card h-100 second-part last-part">
+                            <img src="Logo/XMLID 1.png" class="card-img-top" alt="...">
                         </div>
                     </div>
                 </div>
             </div>
         </section>
         <!--Third part end-->
-        <section class="mt-5">
-
-        </section>
     </main>
+    <footer class="container">
+        <section class="container-fluid mt-5  d-flex ">
+            <div class="col-md-4">
 
+            </div>
+            <div class="col-md-4 justify-content-center align-items-middle">
+                <div class="mb-2">
+                    <h5>
+                        Contact Address
+                    </h5>
+                </div>
+                <div class="mb-2">
+                    <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1"
+                        placeholder="name@example.com">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label"> Write Message </label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div>
+                <button href="#" class="btn btn-primary order-button mb-5">
+                    Send
+                </button>
+            </div>
+            <div class="col-md-4">
+
+            </div>
+        </section>
+    </footer>
     <!-- jscrip-->
     <script src="js/bootstrap.min.js"></script>
 </body>
