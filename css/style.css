@@ -1,7 +1,12 @@
 
+body{
+    background-color:rgba(250, 207, 207, 0.021);
+}
+.nav-custom > img{
+    background-color:rgba(230, 196, 196, 0.123);
+    margin:0;
+    border:none;
 
-.nav-custom{
-    background-color:hsla(7, 66%, 76%, 0.397);
 }
 
 
@@ -17,11 +22,11 @@
     border-radius: 8px;
     padding: 9px 25px;
 }
-.order-button{
+/* .order-button{
     border-radius: 8px;
     padding: 9px 25px;
   
-}
+} */
 .order-button img{
     border: none;
    width: 20%;
@@ -29,8 +34,27 @@
    
 
 }
+.highlights-color{
+    color:hsla(16, 100%, 50%, 0.712);
+}
 
-
+h5{
+    font-weight:bold;
+    font-size:1.5em;
+    font-family: Geneva, Tahoma, sans-serif;
+    color:rgba(0, 0, 0, 0.582);
+}
+h1{
+    font-weight:bold;
+    font-size:2em;
+    font-family: Geneva, Tahoma, sans-serif;
+    color:rgba(0, 0, 0, 0.582);
+}
+li{
+    font-size:1em;
+    font-weight:bold;
+    color:rgba(0, 0, 0, 0.582);
+}
 .price{
     color:orangered;
 }
@@ -42,4 +66,14 @@
 .card-part{
     border:none;
     box-shadow: 5px 10px 5px 5px rgba(245, 245, 245, 0.24);
+}
+
+.card-nav-custom{
+    margin:0;
+    border:0;
+    padding:0;
+    background-color:rgba(230, 196, 196, 0);
+}
+.m-5{
+    margin:250px;
 }
