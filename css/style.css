@@ -22,16 +22,10 @@ body{
     border-radius: 8px;
     padding: 9px 25px;
 }
-/* .order-button{
-    border-radius: 8px;
-    padding: 9px 25px;
-  
-} */
+
 .order-button img{
     border: none;
    width: 20%;
-   
-   
 
 }
 .highlights-color{
@@ -50,11 +44,7 @@ h1{
     font-family: Geneva, Tahoma, sans-serif;
     color:rgba(0, 0, 0, 0.582);
 }
-li{
-    font-size:1em;
-    font-weight:bold;
-    color:rgba(0, 0, 0, 0.582);
-}
+
 .price{
     color:orangered;
 }
